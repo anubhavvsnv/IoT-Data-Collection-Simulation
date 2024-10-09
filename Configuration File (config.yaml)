@@ -1,0 +1,21 @@
+# Sensor data ranges
+temp_min: 30.0
+temp_max: 80.0
+vibration_min: 0.2
+vibration_max: 1.5
+rpm_min: 1000
+rpm_max: 3000
+power_min: 10
+power_max: 50
+
+# Data collection interval (in seconds)
+collection_interval: 5
+
+# Error retry interval (in seconds)
+error_retry_interval: 30
+
+# Cloud API URL
+cloud_api_url: "https://your-cloud-api-url.com/data"
+
+# Local data storage file
+local_data_file: "local_sensor_data.json"
